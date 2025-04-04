@@ -17,7 +17,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/articles-list" element={<ArticlesList />} />
-          <Route path="/article" element={<Article />} />
+          {/* Dynamic route for articles */}
+          {/* The :name part of the path is a route parameter */}
+          {/* It allows us to access the article name in the Article component */}
+          <Route path="/article/:name" element={<Article />} />
         </Routes>
       </div>
     </Router>
