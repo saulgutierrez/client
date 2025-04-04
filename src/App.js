@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Article from './pages/Article';
 import ArticlesList from './pages/ArticlesList';
+import NotFound from './pages/NotFound';
 // Components
 import Navbar from './components/Navbar';
 
@@ -21,6 +22,7 @@ function App() {
           {/* The :name part of the path is a route parameter */}
           {/* It allows us to access the article name in the Article component */}
           <Route path="/article/:name" element={<Article />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>
