@@ -2,7 +2,7 @@ const articles = [
   {
     name: "article-1",
     title: "Article 1",
-    thumbnail: "/images/article-1.jpg",
+    thumbnail: "/images/blog1.jpg",
     content: [
         `This is the content of article 1.`,
     ],
@@ -10,7 +10,7 @@ const articles = [
   {
     name: "article-2",
     title: "Article 2",
-    thumbnail: "/images/article-2.jpg",
+    thumbnail: "/images/blog2.jpg",
     content: [
         `This is the content of article 2.`,
     ],
@@ -18,7 +18,7 @@ const articles = [
   {
     name: "article-3",
     title: "Article 3",
-    thumbnail: "/images/article-3.jpg",
+    thumbnail: "/images/blog3.jpeg",
     content: [ 
         `This is the content of article 3.`,
     ],
